@@ -1,0 +1,26 @@
+.portfolio {
+  background-color: #f1cada;
+}
+
+.sub-title {
+  text-align: center;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: #dd75be;
+  padding: 3rem;
+  font-size: 24px;
+}
+.trump {
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 5rem;
+  margin: 3rem;
+}

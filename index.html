@@ -4,12 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
   </head>
-  <body>
+  <body class="portfolio">
     <h1>ポートフォリオサイト</h1>
+    <div class="sub-title">~self-introduction~</div>
+    <p class="introduction">
+      名前　福田　晴加 <br />
+      所属　東京理科大学 <br />
+      趣味　楽器演奏（ピアノ11年、サックス9年） <br />
+      好きなこと　ディズニーに行ってショーパレを見ること <br />
+      好きなアーティスト　嵐（櫻井担です！）
+    </p>
+    <div class="trump">
+      <h1>トランプのマーク</h1>
+      <section>
+        <h3>ボタン一覧</h3>
+        <button id="heart">ハート</button>
+        <button id="spade">スペード</button>
+        <button id="clover">クローバー</button>
+        <button id="diamond">ダイヤ</button>
+      </section>
+      <section>
+        <h3>押したボタン</h3>
+        <div id="display-items"></div>
+      </section>
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
